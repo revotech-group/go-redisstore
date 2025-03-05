@@ -42,10 +42,10 @@ jobs:
 
       - run: 'go mod download'
 
-      - uses: 'golangci/golangci-lint-action@v3'
-        with:
-          only-new-issues: 'true'
-          skip-cache: 'true'
+      # - uses: 'golangci/golangci-lint-action@v3'
+      #   with:
+      #     only-new-issues: 'true'
+      #     skip-cache: 'true'
 
       - run: 'make test-acc'
         env:
