@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/gomodule/redigo/redis"
-	"github.com/sethvargo/go-limiter"
+	"github.com/revotech-group/go-limiter"
 )
 
 const (
